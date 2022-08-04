@@ -1,0 +1,391 @@
+/* 
+******* :: INDEX OF RESPONSIVE CSS :: *******
+:: 1.0 COMMON CSS
+:: 2.0 HEADER AREA CSS
+:: 3.0 WELCOME AREA CSS
+****************************** */
+
+
+/* ******************************
+:: 1.0 COMMON CSS
+****************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+    .ptb_150 {
+        padding: 100px 0;
+    }
+    .ptb_100 {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+    .ptb_150,
+    .ptb_100 {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .ptb_180 {
+        padding: 80px 0;
+    }
+}
+
+
+/*SECTION HEADING*/
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .section-heading {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.8em;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    p {
+        line-height: 26px;
+    }
+    .headings>h2,
+    .section-heading>h2 {
+        line-height: 1.5;
+    }
+}
+
+
+/* ******************************
+:: 3.0 WELCOME AREA TO Start CSS
+****************************** */
+
+
+@media(max-width: 1440px){
+    .welcome-form-wrap{
+        min-height: 800px;
+    }   
+}
+@media(max-width: 1200px) {
+.testimonial-area .item{
+    background-image: url(../img/testimonials/testi-bg.png);
+    background-size: contain;
+    background-position: center;
+}
+.ban-cta-phone{
+    padding: 40px 0px 30px 0;
+}
+}
+@media(max-width: 991px) {
+    .about-img {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .testi-bx-content{
+        flex-direction: column;
+    }
+    .testi-bx-content p{
+        padding-right: 0px;
+    }
+    .testi-profile{
+        display: none !important;
+    }
+    .welcome-form-wrap{
+        padding: 50px 0 !important;
+    }
+    .welcome-form-wrap, .footer-form-right{
+        display: flex !important;
+        justify-content: center;
+    }
+    .footer-form {
+        padding-left: 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .welcome-form-wrap{
+        margin-left: 0;
+    }
+    .ban-cta-phone {
+        padding: 40px 10px 30px 40px;
+    }
+   
+}
+
+@media(min-width: 575px) {
+    .btn-below-575{
+        display: none;
+    }
+}
+
+@media(max-width: 575px) {
+    .welcome-form-wrap {
+        min-height: 460px;
+    }
+    .welcome-form{
+        max-width: 400px;
+    }
+    .form-title h1{
+        font-size: 20px;
+    }
+    .ban-cta-phone{
+        font-size: 28px;
+    }
+    .common-btn1 a {
+        padding: 15px 50px;
+        font-size: 18px;
+    }
+    #letter5 select, #letter5 input{
+        height: 55px;
+    }
+    .pp-left {
+        height: auto;
+    }
+    .popupleft-content h3 {
+        font-size: 18px;
+    }
+    .popupleft-content p {
+        font-size: 14px;
+    }
+    .btn-abv-575{
+        display: none;
+    }
+    .testi-bx-content p {
+        font-size: 13px;
+    }
+    .product-box{
+        display: flex !important;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .pt-head-text{
+        font-size: 18px;
+    }
+    .pt-bx-left{
+        display: flex;
+        justify-content: center;
+    }
+    .pt-bx-img-slider{
+        margin: 0;
+        margin-top: -50px;
+    }
+    .pt-bx-right{
+        padding:0 50px;
+    }
+    .pt-bx-right h3{
+        padding-top: 20px;
+    }
+    .pt-bx-right ul{
+        width: auto;
+    }
+    .about-area{
+        margin-top: 0;
+    }
+
+    .about-cont p {
+        font-size: 16px;
+    }
+    .pt-head-text {
+        padding: 20px 0 20px 0;
+        line-height: 28px;
+        text-align: center;
+    }
+    .common-btn1{
+        justify-content: center;
+    }
+    .pt-bx-content{
+        padding: 30px 30px 0 30px;
+    }
+
+    .welcome-form .form-group input, 
+    .welcome-form .form-group select{
+        height: 55px;
+    }
+    .welcome-form form .form-group {
+        margin-bottom: 14px;
+    }
+    .welcome-form .form-group input[type="submit"] {
+        height: 55px;
+    }
+    .welcome-form form .form-group-btn {
+        margin: 15px 0 0;
+    }
+    .product-area {
+        padding: 20px 0;
+    }
+    .product-area h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .pt-bx-right h3 {
+        font-size: 21px;
+    }
+    .pt-bx-right ul li {
+        font-size: 18px;
+    }
+    .pt-bx-right p {
+        font-size: 18px;
+    }
+    .about-area h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-cont p {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .about-cont {
+        padding: 0;
+    }
+    .about-img p {
+        padding: 0 20px;
+        padding-bottom: 50px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .product-area {
+        padding: 20px 0 70px;
+    }
+    .counter-sec{
+        margin-left: 0;
+    }
+    .counter-sec .box-1{
+        margin-bottom: 25px;
+        margin-right: 30px;
+    }
+    .counter-sec .box-1 h3{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .counter-sec .box-1 p{
+        font-size: 20px;
+    }
+    .testi-head h1{
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .single-testi{
+        padding: 60px 30px;
+        min-height: 600px;
+    }
+    .single-testi .details .img{
+        margin-right: 20px
+    }
+    .single-testi .details .name h4{
+        font-size: 18px;
+    }
+    .single-testi .text p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .testi-slider .owl-dots{
+        bottom: -16px;
+        text-align: center;
+    }
+    .testi-btn a{
+        padding: 18px 45px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .testi-btn {
+        margin-top: 90px;
+    }
+    .brand-head h2{
+        font-size: 40px;
+    }
+    .brand-btn-head{
+        min-height: 100px;
+        margin-top: 45px;
+    }
+    .brand-btn-head a{
+        font-size: 20px;
+        padding: 30px;
+    }
+    .brands-area {
+        padding: 50px 0 79px;
+    }
+    .footer-order-1{
+        order: 1;
+    }
+    .footer-order-2{
+        order: 2;
+    }
+    .footer-form{
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding: 50px 0px;
+    }
+    .footer-area{
+        padding: 50px 0;
+    }
+    .footer-form .form-control{
+        height: 55px;
+    }
+    .footer-logo img{
+        max-width: 200px;
+    }
+    .footer-call a{
+        font-size: 18px;
+    }
+    .footer-copyright p, .footer-copyright a{
+        font-size: 14px;
+    }
+    .vertical_btn{
+        bottom: 55%;
+    }
+    .pt-bx-btn a{
+        padding: 18px 45px;
+        font-size: 16px;
+    }
+    .counter-sec{
+        margin-top: 30px;
+    }
+}
+
+
+@media(max-width:360px){
+    .welcome-form{
+        max-width: 360px;
+    }
+}
